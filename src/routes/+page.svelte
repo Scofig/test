@@ -14,10 +14,8 @@
 		{bgcolor}
 		{opacity}
 		on:click={() => {
-			if (opacity) {
-				colors.forEach((color) => (color.opacity = 1));
-				opacity = 0;
-			}
+			colors.forEach((color) => (color.opacity = 1));
+			opacity = 0;
 		}}
 	/>
 {/each}
